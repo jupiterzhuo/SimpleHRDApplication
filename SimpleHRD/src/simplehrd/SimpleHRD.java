@@ -5,6 +5,8 @@
  */
 package simplehrd;
 
+import simplehrd.shared.clsConnection;
+
 /**
  *
  * @author Jupiter
@@ -15,7 +17,7 @@ public class SimpleHRD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //Open form Login 
         frmLogin form = new frmLogin();
         form.setVisible(true);
     }
