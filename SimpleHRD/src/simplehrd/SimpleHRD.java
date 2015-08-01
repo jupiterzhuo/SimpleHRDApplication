@@ -16,6 +16,8 @@ public class SimpleHRD {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        frmLogin form = new frmLogin();
+        form.setVisible(true);
     }
     
 }
